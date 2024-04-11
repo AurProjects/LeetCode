@@ -6,3 +6,5 @@ class Solution:
                     if (nums[i] + nums[j]) == target:
                         return [i, j]
         return None
+
+# Time Complexity: O(n^2)
